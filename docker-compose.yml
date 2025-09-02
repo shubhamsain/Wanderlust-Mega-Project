@@ -20,7 +20,7 @@ services:
 
   frontend:
     container_name: frontend
-    build: ./frontend
+    image: "shubhamsain/notes-app:latest"
     env_file:
       - ./frontend/.env.docker
     ports:
